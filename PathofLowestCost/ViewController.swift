@@ -10,10 +10,7 @@ import UIKit
 
 class ViewController: UIViewController,UITextViewDelegate {
 
-        @IBOutlet weak var output: UILabel!
-    //        var array = Array<Array<Int>>()
-    //
-    //        for i in 0..<NumColumns {
+    @IBOutlet weak var output: UILabel!
     @IBOutlet weak var inputText: UITextView!
     
     
@@ -84,6 +81,14 @@ class ViewController: UIViewController,UITextViewDelegate {
         }else {
         output.text = "Invalid Input"
         }
+    }
+    func textViewDidEndEditing(_ textView: UITextView)->Bool {
+        textView.resignFirstResponder()
+        return true
+    }
+    func textFieldShouldReturn(textField: UITextField!) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 }
 

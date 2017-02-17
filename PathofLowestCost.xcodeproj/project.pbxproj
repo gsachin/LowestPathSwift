@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		631DDD201E50410000570861 /* PathFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631DDD1D1E50410000570861 /* PathFind.swift */; };
-		631DDD211E50410000570861 /* LowCostPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631DDD1E1E50410000570861 /* LowCostPath.swift */; };
+		631DDD201E50410000570861 /* searchOptimumPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631DDD1D1E50410000570861 /* searchOptimumPath.swift */; };
 		631DDD231E50429500570861 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631DDD221E50429500570861 /* Matrix.swift */; };
 		63B6BF641E4EC37A00576853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B6BF631E4EC37A00576853 /* AppDelegate.swift */; };
 		63B6BF661E4EC37A00576853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B6BF651E4EC37A00576853 /* ViewController.swift */; };
@@ -37,8 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		631DDD1D1E50410000570861 /* PathFind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathFind.swift; sourceTree = "<group>"; };
-		631DDD1E1E50410000570861 /* LowCostPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowCostPath.swift; sourceTree = "<group>"; };
+		631DDD1D1E50410000570861 /* searchOptimumPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchOptimumPath.swift; sourceTree = "<group>"; };
 		631DDD221E50429500570861 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		63B6BF601E4EC37A00576853 /* PathofLowestCost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathofLowestCost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B6BF631E4EC37A00576853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,8 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				631DDD221E50429500570861 /* Matrix.swift */,
-				631DDD1D1E50410000570861 /* PathFind.swift */,
-				631DDD1E1E50410000570861 /* LowCostPath.swift */,
+				631DDD1D1E50410000570861 /* searchOptimumPath.swift */,
 				63B6BF631E4EC37A00576853 /* AppDelegate.swift */,
 				63B6BF651E4EC37A00576853 /* ViewController.swift */,
 				63B6BF671E4EC37A00576853 /* Main.storyboard */,
@@ -268,8 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				631DDD211E50410000570861 /* LowCostPath.swift in Sources */,
-				631DDD201E50410000570861 /* PathFind.swift in Sources */,
+				631DDD201E50410000570861 /* searchOptimumPath.swift in Sources */,
 				631DDD231E50429500570861 /* Matrix.swift in Sources */,
 				63B6BF661E4EC37A00576853 /* ViewController.swift in Sources */,
 				63B6BF641E4EC37A00576853 /* AppDelegate.swift in Sources */,
